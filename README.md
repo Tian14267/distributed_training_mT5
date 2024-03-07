@@ -50,6 +50,10 @@ CUDA_VISIBLE_DEVICES="1,2,3" horovodrun -np 3 python mT5_train.py
 
 注：相应的CPU训练方案，见`mT5_train_cpu.py`。但是不推荐实验CPU。
 
+4: 同时也提供Lora训练方案
+```
+sh run_train_mT5_Lora.sh
+```
 
 ### 新手常见问题
 
