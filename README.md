@@ -11,10 +11,7 @@
 
 
 
-
-## 训练语音识别模型
-
-**配置环境**
+## 配置环境
 
 
 - 安装 Conda:  https://docs.conda.io/en/latest/miniconda.html
@@ -34,7 +31,7 @@ https://github.com/horovod/horovod/blob/master/docs/pytorch.rst
 ```
 
 
-**训练模型**
+## 训练模型
 
 1：准备数据
     可以参照文件夹 data 中的数据进行相应的数据准备。
